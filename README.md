@@ -8,6 +8,7 @@ This will make it
 - more easier to find the logic, `fetch` is just `fetch`, if I want to use my own fetch with interceptor, I need to import it and use.
 - flexiable to add functions you need.
 
+```
 Request 
    |
    |    Request interceptor
@@ -29,3 +30,4 @@ Response
    |    Reponse interceptor
    ↓
 Final Response
+```
